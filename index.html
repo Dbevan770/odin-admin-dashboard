@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="main.js" defer></script>
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <div class="header">
+        <div class="searchbar-container">
+            <img class="searchbar-icon" src="Icons/magnify.svg" id="searchIcon">
+            <input class="searchbar-input">
+        </div>
+        <div class="profile-info-container">
+            <img class="notification-bell" src="Icons/bell-ring-outline.svg" id="bellIcon">
+            <img class="profile-img" src="Images/eyes.svg">
+            <p class="profile-name">Daniel Bevan</p>
+            <div class="theme-switch-container">
+                <img src="Icons/light-theme.png" id="lightIcon">
+                <label class="switch">
+                    <input type="checkbox" id="themeSwitch">
+                    <span class="slider round"></span>
+                </label>
+                <img src="Icons/dark-theme.png" id="darkIcon">
+            </div>
+        </div>
+        <div class="welcome-container">
+            <img class="profile-img-lg" src="Images/eyes.svg">
+            <p>Hi there,</p>
+            <h1>Daniel Bevan (@daniel)</h1>
+        </div>
+        <div class="navbtns-container">
+            <button type="button" class="nav-btn">New</button>
+            <button type="button" class="nav-btn">Upload</button>
+            <button type="button" class="nav-btn">Share</button>
+        </div>
+
+    </div>
+    <div class="sidebar">
+        <div class="logo-header">
+            <img class="logo" src="Images/Team Fill-or-Feed.svg">
+            <h1 class="sidebar-header">Dashboard</h1>
+        </div>
+        <div class="main-nav">
+            <ul>
+                <li>
+                    <img src="Icons/home.png">
+                    <p>Home</p>
+                </li>
+                <li>
+                    <img src="Icons/account.png">
+                    <p>Profile</p>
+                </li>
+                <li>
+                    <img src="Icons/message-reply.png">
+                    <p>Messages</p>
+                </li>
+                <li>
+                    <img src="Icons/history.png">
+                    <p>History</p>
+                </li>
+                <li>
+                    <img src="Icons/note-multiple.png">
+                    <p>Tasks</p>
+                </li>
+                <li>
+                    <img src="Icons/account-group.png">
+                    <p>Communities</p>
+                </li>
+            </ul>
+        </div>
+        <div class="support-nav">
+            <ul>
+                <li>
+                    <img src="Icons/cog.png">
+                    <p>Settings</p>
+                </li>
+                <li>
+                    <img src="Icons/help-box.png">
+                    <p>Support</p>
+                </li>
+                <li>
+                    <img src="Icons/shield-lock.png">
+                    <p>Privacy</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="content-container">
+        <div class="projects-container">
+            <h1 class="projects-header">Your Projects</h1>
+            <div class="project-card">
+                <div class="color-accent"></div>
+                <div class="project-card-text">
+                    <h4>Super Cool Project</h4>
+                    <p>Probably the greatest project in the history of mankind. Ever.</p>
+                </div>
+                <div class="project-card-btns">
+                    <img src="Icons/star-plus-outline.svg" id="starIcon">
+                    <img src="Icons/eye-plus-outline.svg" id="eyeIcon">
+                    <img src="Icons/code-tags.svg" id="codeIcon">
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="color-accent"></div>
+                <div class="project-card-text">
+                    <h4>World Peace Builder</h4>
+                    <p>World peace was actually pretty simple to figure out once I
+                        learned Javascript!
+                    </p>
+                </div>
+                <div class="project-card-btns">
+                    <img src="Icons/star-plus-outline.svg" id="starIcon">
+                    <img src="Icons/eye-plus-outline.svg" id="eyeIcon">
+                    <img src="Icons/code-tags.svg" id="codeIcon">
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="color-accent"></div>
+                <div class="project-card-text">
+                    <h4>AAA RPG Game Idea</h4>
+                    <p>This project will definitely be fully completed solo and go on to
+                        sell millions of copies. First I just need to get started... and
+                        come up with the story... and the gameplay... and the- nevermind.
+                    </p>
+                </div>
+                <div class="project-card-btns">
+                    <img src="Icons/star-plus-outline.svg" id="starIcon">
+                    <img src="Icons/eye-plus-outline.svg" id="eyeIcon">
+                    <img src="Icons/code-tags.svg" id="codeIcon">
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="color-accent"></div>
+                <div class="project-card-text">
+                    <h4>Super Cool Project</h4>
+                    <p>This is a super cool project!</p>
+                </div>
+                <div class="project-card-btns">
+                    <img src="Icons/star-plus-outline.svg" id="starIcon">
+                    <img src="Icons/eye-plus-outline.svg" id="eyeIcon">
+                    <img src="Icons/code-tags.svg" id="codeIcon">
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="color-accent"></div>
+                <div class="project-card-text">
+                    <h4>Super Cool Project</h4>
+                    <p>This is a super cool project!</p>
+                </div>
+                <div class="project-card-btns">
+                    <img src="Icons/star-plus-outline.svg" id="starIcon">
+                    <img src="Icons/eye-plus-outline.svg" id="eyeIcon">
+                    <img src="Icons/code-tags.svg" id="codeIcon">
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="color-accent"></div>
+                <div class="project-card-text">
+                    <h4>Hello World</h4>
+                    <p>I've now written 'Hello World' in 20 different programming
+                        languages. I have also added each of those to my resume.
+                    </p>
+                </div>
+                <div class="project-card-btns">
+                    <img src="Icons/star-plus-outline.svg" id="starIcon">
+                    <img src="Icons/eye-plus-outline.svg" id="eyeIcon">
+                    <img src="Icons/code-tags.svg" id="codeIcon">
+                </div>
+            </div>
+        </div>
+        <div class="info-container">
+            <div class="announcements">
+                <h1 class="announcements-header">Announcements</h1>
+                <div class="announcements-card">
+                    <div class="announcement">
+                        <h5>Site Maintenance</h5>
+                        <p>This is an announcement for site-maintenance</p>
+                    </div>
+                    <div class="announcement">
+                        <h5>Site Maintenance</h5>
+                        <p>This is an announcement for site-maintenance</p>
+                    </div>
+                    <div class="announcement">
+                        <h5>Site Maintenance</h5>
+                        <p>This is an announcement for site-maintenance</p>
+                    </div>
+                </div>
+            </div>
+            <div class="trending">
+                <h1 class="trending-header">Trending</h1>
+                <div class="trending-card">
+                    <div class="trender">
+                        <img src="Images/shark.svg" alt="Lucy">
+                        <h5>@lucy</h5>
+                        <p>Genius Startup Idea</p>
+                    </div>
+                    <div class="trender">
+                        <img src="Images/eyes.svg">
+                        <h5>@daniel</h5>
+                        <p>World Peace Builder</p>
+                    </div>
+                    <div class="trender">
+                        <img src="Images/penguin.svg">
+                        <h5>@andrea</h5>
+                        <p>Anti-repost Sleuth</p>
+                    </div>
+                    <div class="trender">
+                        <img src="Images/pipes.svg">
+                        <h5>@johndayle</h5>
+                        <p>Notflix Streaming Service</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
